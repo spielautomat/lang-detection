@@ -3,6 +3,8 @@ Identify language of the browser by javascript. Original used by [spielautomaten
 
 ## Usage
 ```javascript
-script src="detect.js"></script>
+<script src="detect.js"></script>
+<script>
 var lang = detectLang();
+</script>
 ```
