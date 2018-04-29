@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Check Browser Language</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="detect.js"></script>
+  </head>
+  <body>
+    <h1>Browser Language</h1>
+    
+    <div id="langDiv">
+      <script>
+        var lang = detectLang();
+        //alert("Your browser language is - " + lang);
+
+        div = document.getElementById('langDiv');
+        div.innerHTML = "<p>Your browser language is " + lang + "</p>";
+        
+      </script>      
+    </div>
+ 
+    <!-- page content -->
+  </body>
+</html>
